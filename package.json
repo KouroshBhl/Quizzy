@@ -1,0 +1,18 @@
+{
+  "name": "quizzy",
+  "version": "1.0.0",
+  "description": "Zana teacher Quizz App",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch src/sass/main.scss src/style/style.css",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "page": "npx parcel ./*.html"
+  },
+  "author": "Kourosh Baharloo",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.62.1"
+  }
+}
